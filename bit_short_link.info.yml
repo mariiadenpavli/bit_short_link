@@ -1,0 +1,7 @@
+name: 'BIT test'
+type: module
+description: 'Creates short links.'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - drupal:rest

@@ -1,0 +1,6 @@
+{
+    "name": "drupal/bit_short_link",
+    "type": "drupal-module",
+    "description": "Generate short links",
+    "minimum-stability": "dev",
+}

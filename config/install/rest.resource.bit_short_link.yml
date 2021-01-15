@@ -1,0 +1,9 @@
+id: bit_short_link
+plugin_id: bit_short_link
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie

@@ -1,0 +1,15 @@
+bit_short_link.add:
+  path: '/shortlink/add'
+  defaults:
+    _entity_form: 'bit_short_link.default'
+    _title: 'Add short link'
+  requirements:
+    _entity_create_access: 'bit_short_link'
+
+entity.bit_short_link.canonical:
+  path: '/shortlink/{bit_short_link}'
+  defaults:
+    _entity_view: 'bit_short_link'
+    _title: 'Short link'
+  requirements:
+    _entity_access: 'bit_short_link.view'

@@ -1,0 +1,9 @@
+services:
+  bit_short_link.shortener:
+    class: Drupal\bit_short_link\ShortLinkService
+    arguments: []
+  bit_short_link.middleware:
+    class: Drupal\bit_short_link\ShortLinkMiddleware
+    arguments: ['@database']
+    tags:
+      - { name: http_middleware, priority: 150 }
